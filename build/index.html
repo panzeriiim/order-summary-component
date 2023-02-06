@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/icon-music.svg"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main class="bg-[#e0e8ff]">
+      <div
+        class="bg-even_odd_mobile sm:bg-even_odd_desktop bg-contain bg-no-repeat min-h-screen min-w-fit flex justify-center items-center font-RedHat text-[#707a95]"
+      >
+        <div
+          class="w-[350px] sm:w-[450px] my-10 mx-5 sm:max-h-fit rounded-xl bg-white border-solid overflow-hidden m-auto flex-shrink-0"
+        >
+          <img
+            src="./images/illustration-hero.svg"
+            alt="a girl enjoy music with a mp3"
+          />
+          <div class="px-5 sm:px-10 text-center my-7">
+            <div class="px-5 sm:px-8">
+              <h1 class="text-xl pt-2 font-bold text-[#1f2f56]">
+                Order Summary
+              </h1>
+              <p class="font-light my-5 text-base">
+                You can now listen to millions of songs, audiobooks, and
+                podcasts on any device anywhere you like!
+              </p>
+            </div>
+            <div
+              class="bg-[#f5f7ff] flex justify-between px-6 border-solid rounded-lg items-center py-4 my-5"
+            >
+              <div class="flex items-center">
+                <img src="./images/icon-music.svg" alt="music icon" />
+                <div class="pl-4">
+                  <strong class="text-[#1f2f56]">Anual Plans</strong>
+                  <p>$59.99/years</p>
+                </div>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="text-[#3829e0] underline font-bold active:text-[#766cf1] hover:text-[#5144e4]"
+                  >Change</a
+                >
+              </div>
+            </div>
+            <button
+              class="bg-[#3829e0] w-full py-3 mb-5 font-bold text-white rounded-lg active:bg-[#766cf1] hover:bg-[#5144e4]"
+            >
+              Proceed to Payment
+            </button>
+            <a
+              href="#"
+              class="font-bold hover:text-[#445782] active:text-[#1f2f56]"
+              >Cancel Order</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
